@@ -1,0 +1,29 @@
+.DS_Store
+
+# Local agent/session artifacts
+AGENTS.md
+.playwright-mcp/
+.superpowers/
+
+# Android/Gradle local state
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+captures/
+.cxx/
+
+# Backend runtime data
+backend/data/
+*.sqlite3
+*.sqlite3-*
+*.pid
+*.log
+__pycache__/
+
+# Packaged app artifacts
+dist/
+*.apk
+*.aab
